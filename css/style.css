@@ -49,3 +49,24 @@ nav a:hover{
 h1{
     text-align:center;
 }
+
+.btn {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 8px 16px;
+    background-color: #5865F2; /* Discordカラー */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn:hover {
+    background-color: #4752C4;
+    transform: translateY(-2px);
+}
+
+.btn:active {
+    transform: translateY(0);
+}
