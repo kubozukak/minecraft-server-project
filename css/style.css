@@ -1,1 +1,52 @@
 body{font-family:Arial,sans-serif;background:#1b1b1b;color:#eee;margin:0}header{background:#2e7d32;padding:1rem;position:sticky;top:0}nav a{color:#fff;margin:.5rem;text-decoration:none}main{max-width:900px;margin:auto;padding:2rem}.card{background:#2b2b2b;padding:1rem;border-radius:8px;margin:1rem 0}footer{text-align:center;padding:1rem;color:#aaa}
+
+/* ヘッダー */
+
+header{
+    background:#2e7d32;
+    padding:15px 0;
+    position:sticky;
+    top:0;
+    z-index:100;
+}
+
+/* メニューを中央寄せ */
+
+nav{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#9cff6d;
+}
+
+/* TOP画像 */
+
+.hero{
+    margin-bottom:30px;
+}
+
+.hero img{
+    width:100%;
+    max-height:500px;
+    object-fit:cover;
+    display:block;
+    border-radius:10px;
+}
+
+/* タイトル */
+
+h1{
+    text-align:center;
+}
